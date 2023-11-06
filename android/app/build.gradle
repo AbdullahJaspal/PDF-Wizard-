@@ -73,9 +73,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.mediaconverter"
+    namespace "com.Snap2Pdf.TND"
     defaultConfig {
-        applicationId "com.mediaconverter"
+        applicationId "com.Snap2Pdf.TND"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

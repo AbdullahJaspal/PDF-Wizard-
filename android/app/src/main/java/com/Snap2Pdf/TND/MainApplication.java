@@ -1,4 +1,4 @@
-package com.mediaconverter;
+package com.Snap2Pdf.TND;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

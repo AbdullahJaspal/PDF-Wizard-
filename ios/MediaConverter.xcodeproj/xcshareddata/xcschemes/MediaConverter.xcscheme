@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "MediaConverter.app"
-               BlueprintName = "MediaConverter"
-               ReferencedContainer = "container:MediaConverter.xcodeproj">
+               BuildableName = "Snap2Pdf.app"
+               BlueprintName = "Snap2Pdf"
+               ReferencedContainer = "container:Snap2Pdf.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "MediaConverterTests.xctest"
-               BlueprintName = "MediaConverterTests"
-               ReferencedContainer = "container:MediaConverter.xcodeproj">
+               BuildableName = "Snap2PdfTests.xctest"
+               BlueprintName = "Snap2PdfTests"
+               ReferencedContainer = "container:Snap2Pdf.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "MediaConverter.app"
-            BlueprintName = "MediaConverter"
-            ReferencedContainer = "container:MediaConverter.xcodeproj">
+            BuildableName = "Snap2Pdf.app"
+            BlueprintName = "Snap2Pdf"
+            ReferencedContainer = "container:Snap2Pdf.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "MediaConverter.app"
-            BlueprintName = "MediaConverter"
-            ReferencedContainer = "container:MediaConverter.xcodeproj">
+            BuildableName = "Snap2Pdf.app"
+            BlueprintName = "Snap2Pdf"
+            ReferencedContainer = "container:Snap2Pdf.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface MediaConverterTests : XCTestCase
+@interface Snap2PdfTests : XCTestCase
 
 @end
 
-@implementation MediaConverterTests
+@implementation Snap2PdfTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
 {
