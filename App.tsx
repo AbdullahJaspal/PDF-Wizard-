@@ -116,9 +116,9 @@ const App = ({}) => {
 
   return (
     <ImageBackground
-      source={require('./src/assets/images/BG1.png')}
+      source={require('./src/assets/images/BG.png')}
       style={styles.mainContainer}>
-      <StatusBar translucent backgroundColor={'transparent'} />
+      <StatusBar translucent backgroundColor={'black'} />
       <Animated.View
         style={{
           transform: [
@@ -211,7 +211,8 @@ const styles = StyleSheet.create({
   },
   PreviewHeader: {
     flexDirection: 'row',
-    backgroundColor: Theme.colors.primaryColor,
+    backgroundColor: 'black',
+
     alignItems: 'center',
     justifyContent: 'flex-start',
     height: verticalScale(60) + StatusBar.currentHeight,
@@ -237,7 +238,7 @@ const styles = StyleSheet.create({
     fontWeight: '500',
   },
   convertButton: {
-    backgroundColor: '#5D109E',
+    backgroundColor: Theme.colors.primaryColor,
     alignItems: 'center',
     justifyContent: 'center',
     position: 'absolute',
@@ -248,9 +249,9 @@ const styles = StyleSheet.create({
     top: StatusBar.currentHeight + verticalScale(25) / 2,
   },
   convertTag: {
-    color: 'white',
-    fontWeight: 'bold',
-    fontSize: scale(14),
+    color: 'black',
+    fontSize: scale(12),
+    fontFamily: Theme.font.bold,
   },
 });
 

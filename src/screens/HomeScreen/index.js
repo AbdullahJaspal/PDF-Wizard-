@@ -270,15 +270,15 @@ const HomeScreen = ({move, images, setImages}) => {
             width: width * 0.5,
             height: verticalScale(45),
             borderRadius: 100,
-            backgroundColor: 'white',
+            backgroundColor: Theme.colors.primaryColor,
             alignItems: 'center',
             justifyContent: 'center',
           }}>
           <Text
             style={{
-              color: Theme.colors.primaryColor,
+              color: 'black',
               fontSize: scale(20),
-              fontWeight: 'bold',
+              fontFamily: Theme.font.bold,
             }}>
             PREVIEW
           </Text>
@@ -301,20 +301,56 @@ const HomeScreen = ({move, images, setImages}) => {
             backgroundColor: 'black',
             height: 40,
             justifyContent: 'center',
+            borderTopLeftRadius: 20,
+            borderTopRightRadius: 20,
           }}>
           <Text style={styles.bottomSheetHeading}> What you want to do </Text>
         </View>
         <View style={styles.bottomSheetButtonWrapper}>
-          <TouchableOpacity
-            onPress={handleCamera}
-            style={styles.bottomSheetButtonContainer}>
-            <Image source={CameraIcon} style={styles.bottomSheetButtonImage} />
-          </TouchableOpacity>
-          <TouchableOpacity
-            onPress={handleGallery}
-            style={styles.bottomSheetButtonContainer}>
-            <Image source={GalleryIcon} style={styles.bottomSheetButtonImage} />
-          </TouchableOpacity>
+          <View style={{alignItems: 'center', justifyContent: 'center'}}>
+            <TouchableOpacity
+              onPress={handleCamera}
+              style={styles.bottomSheetButtonContainer}>
+              <Image
+                source={CameraIcon}
+                style={styles.bottomSheetButtonImage}
+              />
+            </TouchableOpacity>
+            <Text
+              style={[
+                styles.topHeading,
+                {
+                  fontSize: scale(14),
+                  fontFamily: 'NanumMyeongjo-Bold',
+                  color: 'black',
+                  marginTop: 10,
+                },
+              ]}>
+              Camera
+            </Text>
+          </View>
+          <View style={{alignItems: 'center', justifyContent: 'center'}}>
+            <TouchableOpacity
+              onPress={handleGallery}
+              style={styles.bottomSheetButtonContainer}>
+              <Image
+                source={GalleryIcon}
+                style={styles.bottomSheetButtonImage}
+              />
+            </TouchableOpacity>
+            <Text
+              style={[
+                styles.topHeading,
+                {
+                  fontSize: scale(14),
+                  fontFamily: 'NanumMyeongjo-Bold',
+                  color: 'black',
+                  marginTop: 10,
+                },
+              ]}>
+              Gallery
+            </Text>
+          </View>
         </View>
         <Text
           onPress={() => CloseBottomSheet()}

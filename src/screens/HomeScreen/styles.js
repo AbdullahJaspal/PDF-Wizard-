@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
     width: width / 4,
     height: width / 4,
     borderRadius: width / 3,
-    backgroundColor: '#EEEEEE',
+    backgroundColor: Theme.colors.primaryColor,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -89,9 +89,9 @@ const styles = StyleSheet.create({
   },
   bottomSheetCloseButton: {
     alignSelf: 'center',
-    color: Theme.colors.primaryColor,
-    fontWeight: 'bold',
+    color: 'black',
     fontSize: scale(18),
+    fontFamily: Theme.font.extraBold,
   },
   renderItemCard: {
     width: (width * 0.95) / 3.2,
@@ -108,7 +108,7 @@ const styles = StyleSheet.create({
     height: scale(15),
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: Theme.colors.primaryColor,
+    backgroundColor: 'black',
   },
   renderIndexTag: {
     color: 'white',
@@ -123,7 +123,7 @@ const styles = StyleSheet.create({
     width: (width * 0.95) / 3.2 / 4,
     height: (width * 0.95) / 3.2 / 4,
     borderRadius: scale(5),
-    backgroundColor: 'red',
+    backgroundColor: 'black',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -136,6 +136,7 @@ const styles = StyleSheet.create({
     width: '30%',
     height: '40%',
     resizeMode: 'contain',
+    tintColor: Theme.colors.primaryColor,
   },
   renderAddMoreTag: {
     color: Theme.colors.primaryColor,
