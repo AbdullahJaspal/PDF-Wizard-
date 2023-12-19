@@ -41,15 +41,6 @@ const Splash = ({move}) => {
   return (
     <View style={styles.mainContainer}>
       <View style={styles.topContainer}>
-        <Animated.Text
-          style={[
-            styles.topHeading,
-            {
-              opacity: ChangeOpacity,
-            },
-          ]}>
-          Image to Pdf Converter
-        </Animated.Text>
         <View
           style={{
             alignItems: 'center',
@@ -78,22 +69,28 @@ const Splash = ({move}) => {
               styles.topHeading,
               {
                 opacity: ChangeOpacity,
-                fontSize: scale(20),
+                fontSize: scale(28),
                 marginTop: verticalScale(10),
+                color: '#FA0F00',
+                fontFamily: 'NanumMyeongjo-ExtraBold',
               },
             ]}>
-            Snap2PDF
+            PDF
+            <Text style={{color: 'black', fontSize: scale(18)}}> Wizard</Text>
+          </Animated.Text>
+          <Animated.Text
+            style={[
+              styles.topHeading,
+              {
+                opacity: ChangeOpacity,
+                fontSize: scale(16),
+                fontFamily: 'NanumMyeongjo-ExtraBold',
+                color: 'black',
+              },
+            ]}>
+            Simplifying Your Document Journey!
           </Animated.Text>
         </View>
-        <Animated.Text
-          style={[
-            styles.descriptionText,
-            {
-              opacity: ChangeOpacity,
-            },
-          ]}>
-          we give the opportunity to convert PDF files to another format.
-        </Animated.Text>
       </View>
       <Animated.View
         style={[
@@ -106,6 +103,22 @@ const Splash = ({move}) => {
           <Text style={styles.bottomButtonTag}>Let's Start!</Text>
         </TouchableOpacity>
       </Animated.View>
+      <Animated.Text
+        style={[
+          styles.topHeading,
+          {
+            opacity: ChangeOpacity,
+            fontSize: scale(16),
+            fontFamily: 'NanumMyeongjo-ExtraBold',
+            color: 'black',
+            alignSelf: 'center',
+            textAlign: 'center',
+            width: '85%',
+          },
+        ]}>
+        Snap it, convert it, PDF it! Effortlessly transform your images into
+        PDFs with PDF Wizard.
+      </Animated.Text>
     </View>
   );
 };

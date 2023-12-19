@@ -73,9 +73,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.Snap2Pdf.TND"
+    namespace "com.pdf.wizard"
     defaultConfig {
-        applicationId "com.Snap2Pdf.TND"
+        applicationId "com.pdf.wizard"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

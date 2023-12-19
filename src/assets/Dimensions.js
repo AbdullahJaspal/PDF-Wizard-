@@ -15,6 +15,10 @@ export const moderateScale = (size, factor = 0.5) =>
 
 export default Theme = {
   colors: {
-    primaryColor: '#DB3F6F',
+    primaryColor: '#FA0F00',
+  },
+  font: {
+    bold: 'NanumMyeongjo-Bold',
+    extraBold: 'NanumMyeongjo-ExtraBold',
   },
 };

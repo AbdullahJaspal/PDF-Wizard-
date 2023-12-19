@@ -116,7 +116,7 @@ const App = ({}) => {
 
   return (
     <ImageBackground
-      source={require('./src/assets/images/BG.png')}
+      source={require('./src/assets/images/BG1.png')}
       style={styles.mainContainer}>
       <StatusBar translucent backgroundColor={'transparent'} />
       <Animated.View

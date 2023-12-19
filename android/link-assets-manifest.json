@@ -1,0 +1,21 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/NanumMyeongjo-Bold.ttf",
+      "sha1": "8baf69da80267531bcfdb1de2a1aa627202ec1f2"
+    },
+    {
+      "path": "assets/fonts/NanumMyeongjo-ExtraBold.ttf",
+      "sha1": "5d097414542f9dbb7a97227b5df9e6c33abe9323"
+    },
+    {
+      "path": "assets/fonts/NanumMyeongjo-Regular.ttf",
+      "sha1": "3b43f237f492c0a689067d305f4cd208ad79f8ef"
+    },
+    {
+      "path": "assets/fonts/OFL.txt",
+      "sha1": "dbf9f8a1e0d41794058fa28d31bfcf903357c527"
+    }
+  ]
+}

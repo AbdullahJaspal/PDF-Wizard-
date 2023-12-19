@@ -1,4 +1,4 @@
-package com.Snap2Pdf.TND;
+package com.pdf.wizard;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

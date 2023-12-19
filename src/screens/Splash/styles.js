@@ -14,8 +14,7 @@ const styles = StyleSheet.create({
   },
   topHeading: {
     color: 'white',
-    fontWeight: 'bold',
-    fontSize: scale(24),
+    fontFamily: 'NanumMyeongjo-ExtraBold',
   },
   logo: {
     width: scale(96),
@@ -34,7 +33,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   bottomButton: {
-    backgroundColor: 'white',
+    backgroundColor: '#FA0F00',
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: 100,
@@ -42,9 +41,9 @@ const styles = StyleSheet.create({
     width: '50%',
   },
   bottomButtonTag: {
-    color: Theme.colors.primaryColor,
-    fontWeight: 'bold',
+    color: 'black',
     fontSize: scale(16),
+    fontFamily: 'NanumMyeongjo-ExtraBold',
   },
 });
 

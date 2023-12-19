@@ -187,7 +187,51 @@ const HomeScreen = ({move, images, setImages}) => {
 
   return (
     <View style={styles.mainContainer}>
-      <Text style={styles.topHeading}>Image to Pdf</Text>
+      <View
+        style={{
+          backgroundColor: 'black',
+          width: '100%',
+          position: 'absolute',
+          top: 0,
+          alignItems: 'center',
+          justifyContent: 'center',
+          paddingVertical: 20,
+        }}>
+        <Text
+          style={[
+            styles.topHeading,
+            {
+              fontSize: scale(32),
+              color: '#FA0F00',
+              fontFamily: 'NanumMyeongjo-Bold',
+            },
+          ]}>
+          PDF
+          <Text style={{color: 'white', fontSize: scale(20)}}> Wizard</Text>
+        </Text>
+        <Text
+          style={[
+            styles.topHeading,
+            {
+              fontSize: scale(16),
+              fontFamily: 'NanumMyeongjo-Bold',
+              color: 'white',
+            },
+          ]}>
+          Simplifying Your Document Journey!
+        </Text>
+      </View>
+      <Text
+        style={[
+          styles.topHeading,
+          {
+            fontSize: scale(16),
+            fontFamily: 'NanumMyeongjo-Bold',
+            color: 'black',
+          },
+        ]}>
+        Image to PDF
+      </Text>
       <View style={styles.mainCard}>
         <ScrollView ref={scrollViewRef}>
           <DraggableGrid
@@ -252,7 +296,14 @@ const HomeScreen = ({move, images, setImages}) => {
             ],
           },
         ]}>
-        <Text style={styles.bottomSheetHeading}> Select From </Text>
+        <View
+          style={{
+            backgroundColor: 'black',
+            height: 40,
+            justifyContent: 'center',
+          }}>
+          <Text style={styles.bottomSheetHeading}> What you want to do </Text>
+        </View>
         <View style={styles.bottomSheetButtonWrapper}>
           <TouchableOpacity
             onPress={handleCamera}
