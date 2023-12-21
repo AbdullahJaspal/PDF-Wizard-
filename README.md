@@ -8,9 +8,9 @@
 <img src="https://github.com/AbdullahJaspal/PDF-Wizard-/assets/77833394/09e66cc1-8b50-4ba6-847f-8e52bf850a87" width="200" height="400">
 <img src="https://github.com/AbdullahJaspal/PDF-Wizard-/assets/77833394/7db96a12-42ec-4924-9c27-4e89682c14a1" width="200" height="400">
 
-# Getting Started
+# Project Info
 
-> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+Introducing my latest project: a powerful PDF creation tool built with React Native! With this app, you can easily convert images into professional-looking PDF files. Simply select your images, customize the layout, and generate high-quality PDFs on the go. Whether it's creating portfolios, reports, or presentations, this app makes it a breeze. Join me on this PDF-making adventure and unlock a whole new level of document creation!
 
 ## Step 1: Start the Metro Server
 
